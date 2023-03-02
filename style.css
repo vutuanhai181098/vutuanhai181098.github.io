@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+}
+.header-main{
+    width: 1528px;
+    height: 92px;
+}
+.topbar{
+    background: #000000;
+    width: 1528px;
+    height: 32px;
+}
+.topbar a{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+#header{
+    background: #fff;
+    width: 1528px;
+    height: 60px;
+}
+.container{
+    width: 1410px;
+    height: 50px;
+    margin: 0 44px;
+    padding: 5px 15px;
+}
+.header-bottom{
+    height: 50px;
+    padding: 0 15px;
+    display: flex;
+}
+.header-bottom .header-right{
+    padding-left: 20px;
+    width: 1140px;
+    height: 50px;
+    display: flex;
+}
+.header-bottom .header-right .header-menu{
+    width: 1035px;
+    height: 50px;
+}
+.header-bottom .header-right .header-menu ul{
+    list-style: none;
+}
+.header-bottom .header-right .header-menu ul li{
+    float: left;
+    line-height: 50px;
+    padding: 0 15px;
+}
+.header-bottom .header-right .header-menu ul li a{
+    color:#111;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.header-bottom .header-right .header-right-icon{
+    line-height: 50px;
+}
+.header-bottom .header-right .header-right-icon a{
+    padding: 0 5px;
+}
+.header-bottom .header-right .header-right-icon a i{
+    font-size: 20px;
+    color: #111;
+}
+.snippet{
+    width: 1528px;
+}
+.snippet img{
+    max-width: 1528px;
+}
+#wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.headline{
+    text-align: center;
+    margin: 40px 0px;
+}
+.headline h3{
+    font-size: 18px;
+    color: #111;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    color: #555;
+    font-weight: 600;
+}
+ul.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul.products li{
+    flex-basis: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+ul.products li img{
+    max-width: 100%;
+    height: auto;
+}
+ul.products li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+ul.products li .product-top .product-thumb{
+    display: block;
+}
+ul.products li:hover .product-top .product-thumb img{
+    filter: opacity(80%);
+}
+ul.products li .product-top .product-thumb img{
+    display: block;
+}
+ul.products li .product-top a.buy-now{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: -36px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.85;
+}
+ul.products li:hover a.buy-now{
+    bottom: 0px;
+}
+ul.products li .product-info{
+    padding: 10px 0;
+}
+ul.products li .product-info a{
+    display: block;
+    text-decoration: none;
+}
+ul.products li .product-info a.product-name{
+    color: #000000;
+    padding: 5px 0;
+}
+ul.products li .product-info .product-price{
+    color: red;
+    padding: 3px 0;
+    font-weight: 600;
+}
+#product{
+    max-width: 1528px;
+}
+.product-wrapper{
+    padding: 48px 0px;
+}
+.product-wrapper .product-container{
+    width: 1440px;
+    padding: 0px 15px;
+    margin: 0px 44px;
+    display: flex;
+}
+.product-wrapper .product-container .product-box-image{
+    width: 954px;
+    display: flex;
+}
+.product-wrapper .product-container .product-box-image img{
+    width: 472px;
+    height: 708px;
+    padding-right: 10px;
+}
+.product-wrapper .product-container .product-box-info{
+    width: 384px;
+    padding-left: 24px;
+    padding-right: 48px;
+}
+.product-wrapper .product-container .product-box-info .product-title{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.product-wrapper .product-container .product-box-info .product-title h2{
+    padding-bottom: 10px;
+    }
+.product-wrapper .product-container .product-box-info .product-info{
+    padding: 30px;
+}
+.product-wrapper .product-container .product-box-info .product-info ul{
+    list-style: none;
+}
+.product-wrapper .product-container .product-box-info .product-info ul li{
+    padding-bottom: 12px;
+    font-size: 20px;
+}
