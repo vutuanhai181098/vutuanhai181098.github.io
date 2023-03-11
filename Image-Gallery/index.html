@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 850px;
+            height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .container img{
+            width: 200px;
+            height: 150px;
+            margin: 40px;
+            border: 1px solid;
+            transition: transform 1.5s;
+        }
+        .container img:hover {
+            transform: scale(1.5 , 1.5);
+        }
+    </style>
+    <div class="container">
+        <img src="images/Akali.jpg"alt="Akali">
+        <img src="images/ashe.jpg" alt="Ashe">
+        <img src="images/fiora.jpg" alt="Fiora">
+        <img src="images/leesin.jpg" alt="Leesin">
+        <img src="images/riven.jpg" alt="Riven">
+        <img src="images/syndra.jpg"alt="Syndra">
+        <img src="images/tristana.jpg" alt="tristana">
+        <img src="images/Vi.jpg" alt="Vi">
+        <img src="images/yasuo.jpg" alt="Y  asuo">
+    </div>
+</body>
+
+</html>
